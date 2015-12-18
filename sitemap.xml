@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://xiuzhifu.github.io/blog/2015/12/19/hello-blog-base-github/</loc>
+    <lastmod>2015-12-19T01:07:46+08:00</lastmod>
+  </url>
+  <url>
     <loc>http://xiuzhifu.github.io/blog/archives/</loc>
   </url>
   <url>

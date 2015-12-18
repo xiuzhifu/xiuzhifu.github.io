@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>My Octopress Blog</title>
-  <meta name="author" content="Your Name">
+  <title>爱笑的77的Blog</title>
+  <meta name="author" content="anmeng">
 
   
-  <meta name="description" content=" Blog Archives Recent Posts ">
+  <meta name="description" content="testing write a blog with markdown and based on github it&rsquo;s so cool
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +22,7 @@
   <link rel="canonical" href="http://xiuzhifu.github.io/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="爱笑的77的Blog" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
@@ -36,7 +37,7 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">My Octopress Blog</a></h1>
+  <h1><a href="/">爱笑的77的Blog</a></h1>
   
     <h2>A blogging framework for hackers.</h2>
   
@@ -66,6 +67,37 @@
       <div class="blog-index">
   
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/12/19/hello-blog-base-github/">Hello Blog Base Github</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-12-19T01:07:46+08:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>19</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>1:07 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h1>testing write a blog with markdown and based on  github</h1>
+
+<p>it&rsquo;s so <em>cool</em></p>
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -78,7 +110,40 @@
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
+      <li class="post">
+        <a href="/blog/2015/12/19/hello-blog-base-github/">Hello Blog Base Github</a>
+      </li>
+    
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/xiuzhifu">@xiuzhifu</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'xiuzhifu',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 
@@ -91,7 +156,7 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2015 - Your Name -
+  Copyright &copy; 2015 - anmeng -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
